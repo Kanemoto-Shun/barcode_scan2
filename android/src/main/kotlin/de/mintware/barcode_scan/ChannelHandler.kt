@@ -32,7 +32,7 @@ class ChannelHandler(private val activityHelper: ActivityHelper
                 ))
                 .setAndroid(Protos.AndroidConfiguration
                         .newBuilder()
-                        .setAspectTolerance(0.5)
+                        .setAspectTolerance(0.2)
                         .setUseAutoFocus(true))
                 .addAllRestrictFormat(mutableListOf())
                 .setUseCamera(-1)
